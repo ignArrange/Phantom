@@ -1,10 +1,7 @@
-from crypto import getPrice
-from headers import headers
+import headers
 
-data = headers.header("minelounge.org")
+data = headers.header("https://minelounge.org")
 data.update({
-    "test": "test",
-    "test2": "test2"
-
+    "test": "test1",
+    "nig": "ger"
 })
-print(data)
